@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        <style>
+            table
+            {
+                width: 100%;   
+            }
+            table, tr, td, th
+            {
+                border: 2px solid black;   
+                border-collapse: collapse;
+            }
+            th
+            {
+                background-color: black; 
+                color: white;
+            }
+            caption
+            {
+                color: red;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <caption>Mark's Song Ratings</caption>
+            <tr>
+                <th width="50%">Song</th><th>Artist</th><th>Rating</th>
+            </tr>
+            <tr>
+                <td>Faithfully</td><td>Journey</td><td>*****</td>
+            </tr>
+            <tr>
+                <td>Keep on Loving You</td><td rowspan="2">REO Speedwagon</td><td>****</td>
+            </tr>
+             <tr>
+                <td>Time For Me To Fly</td><td>*****</td>
+            </tr>
+            <tr>
+                <td>Surrender</td><td>Cheap Trick</td><td>***</td>
+            </tr>
+            <tr>
+                <td>Plainsong</td><td>The Cure</td><td>****</td>
+            </tr>
+            <tr>
+                <td>Goodbye To You</td><td>Scandal</td><td>*****</td>
+            </tr>
+            <tr>
+                <td>Captain Jack</td><td>Billy Joel</td><td>***</td>
+            </tr>
+            <tr>
+                <td>Broken Wings</td><td rowspan="2">Mr. Mister</td><td>****</td>
+            </tr>
+            <tr>
+                <td>Kyrie</td><td>*****</td>
+            </tr>
+            <tr>
+                <td>Lady</td><td>Styx</td><td>***</td>
+            </tr>
+        </table>
+    </body>
+</html>

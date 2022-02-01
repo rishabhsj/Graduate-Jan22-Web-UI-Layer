@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <style>
+        #bio
+            {
+                width: 300px;
+                height: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="#" method="post">
+            <label for="first">First</label>
+            <input type="text" id="first" name="first" required="required"/><br/>
+            <label for="last">Last</label>
+            <input type="text" id="last" name="last" maxlength="25" autocomplete="off"/><br/>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" /><br/>
+            <label id="bands">Bands You Like</label><br/>
+            <input type="checkbox" name="bands" value="Journey">Journey<br/>
+            <input type="checkbox" name="bands" value="REO">REO Speedwagon<br/>
+            <input type="checkbox" name="bands" value="Foreigner">Foreigner<br/>
+            <input type="checkbox" name="bands" value="Heart">Heart<br/>
+            <input type="checkbox" name="bands" value="Scandal">Scandal<br/>
+            <label id="gender">Gender</label><br/>
+            <input type="radio" name="gender" value="male" checked="checked">Male<br/>
+            <input type="radio" name="gender" value="female">Female<br/>
+            <input type="radio" name="gender" value="other">Other<br/>
+            <label id="state">State</label>
+            <select id="state" name="state" size="5" multiple="multiple">
+                <option value="Alabama">Alabama</option>
+                <option value="Alaska">Alaska</option>
+                <option value="Connecticut">Connecticut</option>
+                <option value="Florida">Florida</option>
+                <option value="Illinois">Illinois</option>
+            </select><br/>
+            <button type="submit">Submit Me</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
