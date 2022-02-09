@@ -5,9 +5,7 @@ var arr = [10, 20, 30, 40];
 // i++ i = i + 1
 
 for (let i = 0; i < arr.length; i++) {
-
   console.log("arr[", i, "] = ", arr[i]);
-
   //console.log(`arr[${i}] = ${arr[i]}`);
 
 }
@@ -16,14 +14,11 @@ for (let i = 0; i < arr.length; i++) {
 
 // routing : http://localhost:4200/employees/${id}
 
-
-
 // for in loop
 
 // x returns index number starting from 0 till n-l
 
 for (let x in arr) {
-
   console.log(`${x} - ${arr[x]}`);
 
 }
@@ -31,11 +26,8 @@ for (let x in arr) {
 // for in - can also be used with objects
 
 var person = {
-
   id: 100,
-
   name: "John",
-
   age: 34,
 
 };
