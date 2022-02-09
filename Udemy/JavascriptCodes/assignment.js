@@ -4,14 +4,14 @@ class Account {
     #accountNumber;
     #holderName;
     #balance;
-    #count;
+ 
 
-    static instantceCounter = 0;
+    static count = 0;
     constructor(accountNumber, holderName, balance) {
       this.#accountNumber = accountNumber;
       this.#holderName = holderName;
       this.#balance = balance;
-      this.constructor.instantceCounter++;
+      Account.count = Account.count + 1;
   
     }
 
@@ -31,10 +31,7 @@ get accountHolderName() {
     return this.#accountNumber;
 
   }
-  
-  get count() {
-      return this.#count;    
-  } 
+   
   set accountHolderNumber(number) {
     this.#accountNumber = number;
 
@@ -82,14 +79,11 @@ get accountHolderName() {
 var acc1 = new Account(100, "John", 5000);
 var acc2 = new Account(200, "Jill", 8000); //call to constructor function
 
-
-console.log("Number of Objects:", Account.instantceCounter);
-
 console.log(`${acc1.accountNumber} : ${acc1.holderName} : ${acc1.balance}`);
 console.log(`${acc2.accountNumber} : ${acc2.holderName} : ${acc2.balance}`);
 
 console.log("Type of acc1 - ", typeof Account);
-
+console.log("Number of Objects:", Account.count);
 
 
 

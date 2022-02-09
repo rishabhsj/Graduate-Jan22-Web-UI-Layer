@@ -1,0 +1,20 @@
+<html>
+  <body>
+
+    <div id="myDIV">
+      <h2 class="example">A heading with class="example" in div</h2>
+      <p class="example">A paragraph with class="example" in div.</p>
+    </div>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myDIV");
+        console.log("x =", x);
+        x.querySelector(".example").innerHTML = "Hello World!";
+
+      }
+    </script>
+  </body>
+</html>

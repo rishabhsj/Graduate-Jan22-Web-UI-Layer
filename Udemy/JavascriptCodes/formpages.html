@@ -1,0 +1,35 @@
+<body>
+
+    <form name="myform" method="post" onsubmit="return validate()">
+
+      Name: <input type=""text" name="firstname" required />
+
+      <br />
+
+      <input type="submit" value="submit" />
+
+    </form>
+
+    <script>
+
+      function validate() {
+
+         
+
+        var x = document.forms["myform"]["firstname"].value;
+
+        if (x.length < 5) {
+
+          window.alert("Firstname cannot be less than 5 characters");
+
+          return false;
+
+        }
+
+        return true;
+
+      }
+
+    </script>
+
+  </body>

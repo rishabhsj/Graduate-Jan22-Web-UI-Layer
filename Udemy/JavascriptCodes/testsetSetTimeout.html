@@ -1,0 +1,27 @@
+<html>
+
+  <body>
+
+    <h1 id="myh1">Initial Text</h1>
+
+
+
+    <script>
+
+      console.log("before");
+
+      setTimeout(function () {
+
+        console.log("after timer completed");
+
+        document.getElementById("myh1").innerHTML = "Text Updated";
+
+      }, 3000); // 3 seconds
+
+      console.log("after");
+
+    </script>
+
+  </body>
+
+</html>
