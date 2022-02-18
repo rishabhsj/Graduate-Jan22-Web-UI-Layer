@@ -1,0 +1,10 @@
+web application that can sedn HTML content to the client
+    client-always web browser
+
+web applications that can send data to the client in a specific format --- Rest APIs 
+    Client-any web app developed in angular/react
+
+
+
+
+
