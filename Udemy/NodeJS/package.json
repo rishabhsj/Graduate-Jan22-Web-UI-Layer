@@ -1,0 +1,21 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miriam",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.7",
+    "debug": "^4.3.3",
+    "express": "^4.17.2",
+    "helmet": "^5.0.2",
+    "joi": "^13.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2"
+  }
+}
